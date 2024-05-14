@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "A gem to validate the type of a number."
   spec.description = "Used to validate a number is odd or even or palindrome"
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/SivaPrabhuS07/num_validation"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

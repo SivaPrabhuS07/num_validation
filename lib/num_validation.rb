@@ -3,6 +3,9 @@
 require_relative "num_validation/version"
 
 module NumValidation
-  class Error < StandardError; end
-  # Your code goes here...
+  def is_odd(n)
+    return nil unless n.class == Integer
+
+    return (n % 2 == 0) ? false : true
+  end
 end
